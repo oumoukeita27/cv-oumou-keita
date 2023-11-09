@@ -1,0 +1,61 @@
+/*
+font-family: 'Arimo', sans-serif;
+font-family: 'Gravitas One', serif;
+*/
+
+body {
+    background-color: #CFDCFF;
+    font-family: 'Arimo', sans-serif;
+    color:#92400e
+}
+
+h1 {
+    font-family: 'Lilita One', sans-serif; 
+    color: #c65272;
+}
+
+h2 {
+    font-family: 'Gravitas One', serif;
+    color: #ffdd27
+}
+
+#experiences ul {
+    background-color: #f8e493;
+}
+
+section#experiences h2 {
+    color:#103f80
+}
+
+#formations ul {
+    background-color: #ffe3e3;
+}
+
+#formations h2  {
+    color:#103f80
+}
+#formations  {
+    color:#801071
+}
+
+#centres ul {
+    background-color: #8fbeff;
+}
+
+section#centres h2 {
+    color:#103f80
+}
+
+#qualifications ul {
+    background-color: #ffb5b5;
+}
+
+#competences ul {
+    background-color: #ffa975;
+}
+
+header {
+    background-color: #8fbeff;
+}
+
+ul { list-style-type: none;}
