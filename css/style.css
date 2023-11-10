@@ -19,43 +19,84 @@ h2 {
     color: #ffdd27
 }
 
-#experiences ul {
-    background-color: #f8e493;
+.header {
+    background-color: #8fbeff;
 }
 
-section#experiences h2 {
-    color:#103f80
+.header {
+  position: sticky;
+top: 50px; left: 50px; }
+
+.box {
+    display: flex;
+    align-items: right;
+    gap: 2rem;
 }
 
-#formations ul {
+main {
+    display: flex;
+    gap: 3rem;
+}
+
+.bloc1 {
+position: relative;
+top: -50px; 
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+ }
+
+.bloc2 {
+    position: relative;
+    top: -50;
+
+}
+
+.competences ul {
+    background-color: #ffa975;
+    padding: 1rem;
+}
+
+.qualifications ul {
+    background-color: #ffb5b5;
+    padding: 1rem;
+}
+
+.formations ul {
     background-color: #ffe3e3;
 }
 
-#formations h2  {
+.formations h2  {
     color:#103f80
 }
-#formations  {
-    color:#801071
+.formations  {
+    color:#645289
 }
 
-#centres ul {
-    background-color: #8fbeff;
+.experiences ul {
+    background-color: #f8e493;
 }
 
-section#centres h2 {
+section.experiences h2 {
     color:#103f80
 }
 
-#qualifications ul {
-    background-color: #ffb5b5;
+.experiences  {
+    color:#0045a4
+
 }
 
-#competences ul {
-    background-color: #ffa975;
-}
-
-header {
+.centres ul {
     background-color: #8fbeff;
+    padding: 1rem;
+}
+
+section.centres h2 {
+    color:#103f80
+}
+
+.centres  {
+    color:#ad5118
 }
 
 ul { list-style-type: none;}
