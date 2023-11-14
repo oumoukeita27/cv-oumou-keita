@@ -16,16 +16,17 @@ h1 {
 
 h2 {
     font-family: 'Gravitas One', serif;
-    color: #ffdd27
+    color: #f55d00
 }
 
-.header {
+.premier {
     background-color: #8fbeff;
 }
 
-.header {
+.premier {
   position: sticky;
-top: 50px; left: 50px; }
+top: 50px; left: 50px;
+}
 
 .box {
     display: flex;
@@ -64,6 +65,7 @@ justify-content: space-around;
 
 .formations ul {
     background-color: #ffe3e3;
+    padding: 1rem;
 }
 
 .formations h2  {
@@ -75,6 +77,7 @@ justify-content: space-around;
 
 .experiences ul {
     background-color: #f8e493;
+    padding: 1rem;
 }
 
 section.experiences h2 {
