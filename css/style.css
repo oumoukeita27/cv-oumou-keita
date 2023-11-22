@@ -23,11 +23,6 @@ h2 {
     background-color: #8fbeff;
 }
 
-.premier {
-  position: sticky;
-top: 50px; left: 50px;
-}
-
 .box {
     display: flex;
     align-items: right;
@@ -41,16 +36,22 @@ main {
 
 .bloc1 {
 position: relative;
-top: -50px; 
-display: flex;
-flex-direction: column;
-justify-content: space-around;
- }
+top: -50px;
+}
 
 .bloc2 {
     position: relative;
-    top: -50;
+    top: -50px;
+}
 
+.profil {
+    position: relative;
+    top: 150px;
+}
+
+.competences {
+    position: relative;
+    top: 300px;
 }
 
 .competences ul {
@@ -63,6 +64,11 @@ justify-content: space-around;
     padding: 1rem;
 }
 
+.qualifications {
+    position: relative;
+    top: 600px;
+}
+
 .formations ul {
     background-color: #ffe3e3;
     padding: 1rem;
@@ -72,6 +78,8 @@ justify-content: space-around;
     color:#103f80
 }
 .formations  {
+    position: relative;
+    top: 50px;
     color:#645289
 }
 
@@ -103,3 +111,33 @@ section.centres h2 {
 }
 
 ul { list-style-type: none;}
+
+.projet {
+    position: relative;
+    top: 700px;
+}
+
+.peinture {
+    position: relative;
+    top: 750px;
+}
+
+.travaux {
+    position: relative;
+    top: 800px;
+}
+
+.photographie {
+    position: relative;
+    top: 130px;
+}
+
+.nuit {
+    position: relative;
+    top: 150px;
+}
+
+.jour {
+    position: relative;
+    top: 180px;
+}
