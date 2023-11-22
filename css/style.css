@@ -93,6 +93,8 @@ section.experiences h2 {
 }
 
 .experiences  {
+    position: relative;
+    top: 50px;
     color:#0045a4
 
 }
@@ -107,6 +109,8 @@ section.centres h2 {
 }
 
 .centres  {
+    position: relative;
+    top: 50px;
     color:#ad5118
 }
 
